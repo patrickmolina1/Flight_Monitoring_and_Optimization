@@ -1083,9 +1083,6 @@ def main():
             
             with col1:
                 st.write("**Departure**")
-                dep_lat = st.number_input("Latitude", value=50.0379, key="dep_lat")
-                dep_lon = st.number_input("Longitude", value=8.5622, key="dep_lon")
-                st.caption("Default: Frankfurt Airport (FRA)")
                 
                 # Add preset departure airports
                 departure_presets = {
@@ -1096,16 +1093,19 @@ def main():
                     "Munich (MUC)": (48.3538, 11.7861)
                 }
                 
-                selected_dep = st.selectbox("Or select preset departure:", ["Custom"] + list(departure_presets.keys()))
+                selected_dep = st.selectbox("Select departure airport:", ["Custom"] + list(departure_presets.keys()), key="dep_preset")
+                
                 if selected_dep != "Custom":
-                    dep_lat, dep_lon = departure_presets[selected_dep]
-                    st.rerun() if hasattr(st, 'rerun') else st.experimental_rerun()
+                    dep_lat_default, dep_lon_default = departure_presets[selected_dep]
+                else:
+                    dep_lat_default, dep_lon_default = 50.0379, 8.5622
+                
+                dep_lat = st.number_input("Latitude", value=dep_lat_default, key="dep_lat")
+                dep_lon = st.number_input("Longitude", value=dep_lon_default, key="dep_lon")
+                st.caption("Default: Frankfurt Airport (FRA)")
             
             with col2:
-                st.write("**Destination**") 
-                arr_lat = st.number_input("Latitude", value=48.3538, key="arr_lat")
-                arr_lon = st.number_input("Longitude", value=14.2958, key="arr_lon")
-                st.caption("Default: Linz Airport (LNZ)")
+                st.write("**Destination**")
                 
                 # Add preset destination airports
                 destination_presets = {
@@ -1116,10 +1116,16 @@ def main():
                     "Barcelona (BCN)": (41.2974, 2.0833)
                 }
                 
-                selected_arr = st.selectbox("Or select preset destination:", ["Custom"] + list(destination_presets.keys()))
+                selected_arr = st.selectbox("Select destination airport:", ["Custom"] + list(destination_presets.keys()), key="arr_preset")
+                
                 if selected_arr != "Custom":
-                    arr_lat, arr_lon = destination_presets[selected_arr]
-                    st.rerun() if hasattr(st, 'rerun') else st.experimental_rerun()
+                    arr_lat_default, arr_lon_default = destination_presets[selected_arr]
+                else:
+                    arr_lat_default, arr_lon_default = 48.3538, 14.2958
+                
+                arr_lat = st.number_input("Latitude", value=arr_lat_default, key="arr_lat")
+                arr_lon = st.number_input("Longitude", value=arr_lon_default, key="arr_lon")
+                st.caption("Default: Linz Airport (LNZ)")
             
             # Advanced optimization parameters
             st.markdown("#### ⚙️ Optimization Parameters")

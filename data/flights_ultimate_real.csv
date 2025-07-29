@@ -1,0 +1,81 @@
+icao24,callsign,longitude,latitude,baro_altitude,velocity,heading,vertical_rate,origin,destination,departure_airport_name,arrival_airport_name,airline,route_confidence,route_source,anomaly
+39de4f,TVF72TD,2.4304,48.7327,190.5,67.41,254.05,-3.58,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+39de4e,TVF11CV,-7.0334,39.5063,11582.4,231.7,27.36,-0.33,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4b1815,SWR756C,6.2492,49.703,9151.62,233.72,345.08,-0.33,ZUR,VIE,Zurich Airport,Vienna Airport,Swiss International,high,pattern_based,0
+39de4b,TVF84NH,2.2171,48.2576,4686.3,201.88,170.47,13.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+408124,EXS35GV,4.6601,46.6295,10668.0,285.85,120.86,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4b1812,SWR883P,5.2727,50.2018,9913.62,212.89,326.73,-7.48,ZUR,VIE,Zurich Airport,Vienna Airport,Swiss International,high,pattern_based,0
+39de4c,TVF8336,9.9595,38.5408,9441.18,256.78,152.56,-10.73,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+407a38,NPT904,-2.1353,49.2129,198.12,59.6,263.06,-3.58,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+440da5,EJU12DH,16.5831,47.2476,10660.38,224.02,158.44,-0.33,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+39de51,TVF8392,4.9255,42.1997,11887.2,265.35,156.22,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4b1803,SWR49M,1.8051,50.1159,11582.4,190.0,310.94,0.0,ZUR,JFK,Zurich Airport,New York JFK,Swiss International,high,pattern_based,0
+4b1805,SWR961M,17.1572,49.2841,9144.0,218.12,67.25,0.0,ZUR,VIE,Zurich Airport,Vienna Airport,Swiss International,high,pattern_based,0
+4b1806,SWR3ZC,8.5599,47.4515,0.0,0.0,185.62,0.0,ZUR,JFK,Zurich Airport,New York JFK,Swiss International,high,pattern_based,0
+4b1807,SWR2WM,-0.4921,39.4938,53.34,17.49,320.62,0.0,ZUR,JFK,Zurich Airport,New York JFK,Swiss International,high,pattern_based,0
+4b1809,SWR1DL,8.5615,47.4556,419.1,0.0,5.62,0.0,ZUR,JFK,Zurich Airport,New York JFK,Swiss International,high,pattern_based,0
+4b1800,SWISS,8.556,47.456,419.1,0.0,5.62,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4b1801,SWR1QK,11.5228,48.3235,2499.36,138.32,259.07,15.93,ZUR,JFK,Zurich Airport,New York JFK,Swiss International,high,pattern_based,0
+4952cb,TAP945,-9.2148,38.6337,876.3,74.24,22.83,-3.58,LIS,VIE,Lisbon Airport,Vienna Airport,TAP Air Portugal,high,pattern_based,0
+4952cc,TAP830,-0.7173,39.3612,10972.8,250.56,115.93,0.0,LIS,VIE,Lisbon Airport,Vienna Airport,TAP Air Portugal,high,pattern_based,0
+4952ce,TAP441,-9.1341,38.7746,0.0,2.31,168.75,0.0,LIS,LHR,Lisbon Airport,London Heathrow,TAP Air Portugal,high,pattern_based,0
+aaa6e4,AVA018,0.0117,41.252,8069.58,206.11,83.41,-7.8,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4b181c,SWR464L,20.4333,44.7633,693.42,84.63,302.34,-4.88,ZUR,LHR,Zurich Airport,London Heathrow,Swiss International,high,pattern_based,0
+511153,TVS2909,19.1229,47.1216,10378.44,245.77,349.02,-0.65,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4952c9,TAP675,4.3765,52.3857,3665.22,165.66,242.64,13.0,LIS,VIE,Lisbon Airport,Vienna Airport,TAP Air Portugal,high,pattern_based,0
+4952c1,TAP647,-9.0566,39.4457,6134.1,182.21,214.18,-6.5,LIS,VIE,Lisbon Airport,Vienna Airport,TAP Air Portugal,high,pattern_based,0
+4952c6,TAP9RH,-7.6577,40.3838,11277.6,227.5,232.53,0.33,LIS,JFK,Lisbon Airport,New York JFK,TAP Air Portugal,high,pattern_based,0
+4952c7,TAP762A,-9.1405,38.767,0.0,1.29,168.75,0.0,LIS,VIE,Lisbon Airport,Vienna Airport,TAP Air Portugal,high,pattern_based,0
+4952c8,TAP557H,-6.1873,41.1917,10668.0,223.72,234.26,0.0,LIS,VIE,Lisbon Airport,Vienna Airport,TAP Air Portugal,high,pattern_based,0
+407a05,EZY54PB,0.6129,44.0894,11887.2,238.41,189.56,0.0,LGW,JFK,LGW,New York JFK,easyJet,high,pattern_based,0
+39de45,TVF8098,5.6472,42.7633,11269.98,273.29,129.65,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+39de47,TVF29UL,2.5802,48.6225,2750.82,146.99,66.49,-9.43,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+39de49,TVF84SQ,21.1445,42.1405,11864.34,246.45,125.91,1.63,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+407a06,EZY89KQ,2.7827,40.3899,5052.06,211.61,151.07,-8.78,LGW,JFK,LGW,New York JFK,easyJet,high,pattern_based,0
+51113c,NYX207,24.8104,59.4172,0.0,0.0,160.31,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+39de40,TVF61LL,14.5136,35.8283,160.02,67.31,314.07,-3.25,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+39de42,TVF3423,13.1001,45.6705,11582.4,230.41,278.47,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+39de41,TVF87LK,2.4298,48.7326,182.88,71.65,254.17,-3.25,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+39de44,TVF8153,8.0374,44.2697,11277.6,202.15,328.21,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4b180b,SWR2512,17.1448,45.2331,9448.8,242.49,116.73,0.0,ZUR,LHR,Zurich Airport,London Heathrow,Swiss International,high,pattern_based,0
+39de43,TVF13AU,5.4542,47.0485,11582.4,208.5,308.09,-1.3,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+3c6669,DLH5LL,12.8666,55.2527,10058.4,259.37,35.39,0.33,FRA,JFK,Frankfurt Airport,New York JFK,Lufthansa,high,pattern_based,0
+3c6668,DLH9HV,16.5219,51.9053,10675.62,219.35,75.61,0.0,FRA,JFK,Frankfurt Airport,New York JFK,Lufthansa,high,pattern_based,0
+44028c,EJU914P,3.173,50.5757,213.36,69.42,258.02,-3.58,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+511188,MBU5TA,17.0155,45.5279,11292.84,234.62,145.09,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4acb03,NSZ5NE,15.1089,51.0962,10972.8,223.44,185.95,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4acb02,NSZ35A,21.4224,65.3644,1920.24,152.82,38.03,-7.15,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+3c664f,DLH5KY,8.5145,50.0391,0.0,11.32,70.31,0.0,FRA,JFK,Frankfurt Airport,New York JFK,Lufthansa,high,pattern_based,0
+51116f,MBU1TC,19.0932,43.1477,11277.6,238.82,143.67,0.33,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4bc8c8,PGT61HP,21.6054,44.523,10355.58,231.37,314.46,2.28,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4bc8c9,PGT44MG,28.3609,41.8024,9258.3,224.83,290.63,6.5,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4bc8c6,PGT37BW,30.7905,36.8845,167.64,72.95,6.07,-3.25,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4bc8c7,PGT3FD,29.2651,41.2786,4648.2,199.04,303.4,10.73,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4bc8c4,PGT331L,23.383,43.6085,11567.16,213.19,293.16,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4bc8c5,PGT32FE,29.2503,40.3588,3131.82,159.42,336.41,0.33,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+3c6663,DLH5UV,8.6831,50.0676,518.16,75.2,249.58,-2.93,FRA,JFK,Frankfurt Airport,New York JFK,Lufthansa,high,pattern_based,0
+3c666a,DLH1686,20.3217,47.1594,3489.96,131.18,257.54,-5.2,FRA,LHR,Frankfurt Airport,London Heathrow,Lufthansa,high,pattern_based,0
+4952a5,TAP292,-7.9552,39.4326,9738.36,237.66,333.66,-12.68,LIS,LHR,Lisbon Airport,London Heathrow,TAP Air Portugal,high,pattern_based,0
+48cb15,TVS4WY,27.8533,36.3394,1729.74,149.73,281.7,4.88,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+3c6671,DLH55K,6.1516,45.9082,10675.62,264.57,197.31,0.0,FRA,JFK,Frankfurt Airport,New York JFK,Lufthansa,high,pattern_based,0
+3c6676,DLH37Y,7.335,46.7844,10347.96,231.01,37.76,0.33,FRA,JFK,Frankfurt Airport,New York JFK,Lufthansa,high,pattern_based,0
+3c6674,DLH824,11.9541,54.5846,6423.66,196.75,31.53,-9.43,FRA,VIE,Frankfurt Airport,Vienna Airport,Lufthansa,high,pattern_based,0
+471efa,WMT7AE,3.8144,51.8679,10081.26,220.1,284.07,-4.88,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+471efb,WMT114,8.0584,47.7137,5044.44,197.68,98.53,9.75,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+40812e,EZY51WA,-0.4902,50.5672,11887.2,275.19,154.3,0.0,LGW,JFK,LGW,New York JFK,easyJet,high,pattern_based,0
+3c666f,DLH3FN,8.5503,50.0388,0.0,6.17,160.31,0.0,FRA,JFK,Frankfurt Airport,New York JFK,Lufthansa,high,pattern_based,0
+801666,AIC101,15.1964,52.1801,11582.4,265.01,311.3,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+40812d,EZY21EA,-5.9596,43.9446,10660.38,234.07,203.58,0.0,LGW,JFK,LGW,New York JFK,easyJet,high,pattern_based,0
+51118a,MBU6238,20.0551,40.8973,10668.0,236.74,153.27,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+44029f,AUA223,13.5112,52.3556,68.58,62.86,248.9,-0.33,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+408134,BAW891,19.8737,45.1857,10972.8,238.44,312.81,0.0,LHR,VIE,London Heathrow,Vienna Airport,British Airways,high,pattern_based,0
+3455da,VOE2801,2.3619,39.575,4328.16,161.24,313.06,14.63,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4acb41,SAS7761,19.6478,46.8055,11894.82,225.48,154.02,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4acb44,SAS4703,6.8217,51.2364,11582.4,244.79,192.25,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+3c65a8,DLH481,1.7861,52.808,12192.0,270.16,111.68,-0.33,FRA,LHR,Frankfurt Airport,London Heathrow,Lufthansa,high,pattern_based,0
+4b187c,SWR23A,4.259,46.909,7292.34,224.47,110.39,-6.83,ZUR,JFK,Zurich Airport,New York JFK,Swiss International,high,pattern_based,0
+aae1ea,AAL204,4.7609,52.2982,0.0,31.38,56.25,0.0,Unknown,Unknown,Unknown,Unknown,Unknown,unknown,none,0
+4b1885,SWR15X,-5.6937,51.5501,12192.0,261.71,101.22,0.0,ZUR,JFK,Zurich Airport,New York JFK,Swiss International,high,pattern_based,0
+3c65c3,DLH9H,7.4268,50.1311,4617.72,187.62,112.06,-7.48,FRA,JFK,Frankfurt Airport,New York JFK,Lufthansa,high,pattern_based,0
+3c65c2,DLH06U,7.5443,47.5118,10660.38,232.64,198.84,0.0,FRA,JFK,Frankfurt Airport,New York JFK,Lufthansa,high,pattern_based,0
+3c65c1,DLH25E,8.5414,50.0391,0.0,3.34,250.31,0.0,FRA,JFK,Frankfurt Airport,New York JFK,Lufthansa,high,pattern_based,0

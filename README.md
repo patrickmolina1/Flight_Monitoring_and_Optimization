@@ -42,11 +42,37 @@ Visit the deployed application: **[https://flight-monitore-and-optimization.stre
    pip install -r requirements.txt
    ```
 
-3. **Collect Flight Data** (Optional):
+3. **Collect Flight Data** (Required for local setup):
+   
+   **Step 1**: Get raw flight data from OpenSky API
    ```bash
    cd src
+   python -c "
+   from services.opensky_client import OpenSkyClient
+   client = OpenSkyClient()
+   df = client.get_enhanced_flights_with_routes(45.0, 5.0, 55.0, 15.0)  # European region
+   if df is not None:
+       df.to_csv('../data/flights_raw.csv', index=False)
+       print('✅ Raw flight data collected from OpenSky')
+   else:
+       print('❌ Failed to collect data from OpenSky API')
+   "
+   ```
+   
+   **Step 2**: Process and enhance flight data with realistic routes
+   ```bash
    python simple_flight_collector.py
    ```
+   
+   **Step 3**: Generate complete dataset for dashboard
+   ```bash
+   python collect_complete_data.py
+   ```
+   
+   **Note**: The data collection process follows this pipeline:
+   - `OpenSky Client` → Raw flight positions and basic data
+   - `simple_flight_collector.py` → Adds realistic routes, airline info, and airport data
+   - `collect_complete_data.py` → Creates final dataset with all enhancements for dashboard
 
 4. **Run the Dashboard**:
    ```bash
@@ -98,13 +124,36 @@ Flight_Monitoring_and_Optimization/
 
 ## 🔧 Data Collection Pipeline
 
-The system uses a sophisticated data collection process:
+The system uses a sophisticated 3-stage data collection process:
 
-1. **Real-Time Flight Tracking**: Connects to OpenSky Network API for live aircraft positions
-2. **Route Analysis**: Analyzes flight callsigns and positions to determine realistic flight paths
-3. **Airport Enrichment**: Matches flights with departure/arrival airports using comprehensive airport databases
-4. **Anomaly Detection**: Applies machine learning algorithms to identify unusual flight patterns
-5. **Data Storage**: Processes and stores flight data in optimized CSV format for dashboard consumption
+### Stage 1: Raw Data Collection (`OpenSkyClient`)
+- **Source**: OpenSky Network API for live aircraft positions
+- **Output**: Raw flight states (position, altitude, speed, heading)
+- **Format**: Basic flight tracking data with ICAO24 identifiers
+
+### Stage 2: Route Enhancement (`simple_flight_collector.py`)
+- **Input**: Raw flight positions from Stage 1
+- **Processing**: 
+  - Analyzes flight callsigns to determine airlines and routes
+  - Matches flights with realistic departure/arrival airports
+  - Adds route confidence levels (high/medium/low)
+  - Enriches with airport information and city data
+- **Output**: Enhanced flight dataset with realistic route information
+
+### Stage 3: Complete Data Processing (`collect_complete_data.py`)
+- **Input**: Enhanced flight data from Stage 2
+- **Processing**:
+  - Applies machine learning algorithms for anomaly detection
+  - Generates final dataset optimized for dashboard consumption
+  - Creates backup copies and data validation
+- **Output**: Production-ready flight data for dashboard visualization
+
+### Data Flow Summary:
+```
+OpenSky API → Raw Positions → Route Analysis → Anomaly Detection → Dashboard
+     ↓              ↓              ↓               ↓             ↓
+Stage 1        Stage 2         Stage 3        Final Data    Live Demo
+```
 
 ## 🎯 Use Cases
 
